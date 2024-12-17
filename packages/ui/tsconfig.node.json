@@ -1,0 +1,9 @@
+{
+  "extends": "@seed/tsconfig/tsconfig.base.json",
+  "compilerOptions": {
+    "composite": true,
+
+    "outDir": "dist",
+  },
+  "include": ["vite.config.ts"]
+}

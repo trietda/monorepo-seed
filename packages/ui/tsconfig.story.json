@@ -1,0 +1,6 @@
+{
+  "extends": "./tsconfig.app.json",
+  "include": ["src/stories/*"],
+  "exclude": [],
+  "references": [{ "path": "./tsconfig.app.json" }]
+}
