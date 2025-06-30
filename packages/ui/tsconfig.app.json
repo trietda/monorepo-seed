@@ -1,8 +1,6 @@
 {
   "extends": "@seed/tsconfig/tsconfig.app.json",
   "compilerOptions": {
-    "composite": true,
-
     "outDir": "dist",
     "paths": {
       "@/*": ["./src/*"]
@@ -10,7 +8,6 @@
 
     "allowImportingTsExtensions": false,
     "noEmit": false,
-    "declaration": true,
     "declarationMap": true,
     "sourceMap": true
   },

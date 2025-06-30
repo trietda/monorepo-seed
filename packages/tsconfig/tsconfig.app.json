@@ -1,6 +1,5 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "Default app",
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
     "target": "ES2020",

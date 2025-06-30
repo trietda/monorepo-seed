@@ -10,6 +10,7 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 // https://vite.dev/config/
 export default defineConfig({
   build: {
+    outDir: './dist',
     copyPublicDir: false,
     lib: {
       entry: resolve(__dirname, './src/index.ts'),
