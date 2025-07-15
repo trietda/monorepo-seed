@@ -28,13 +28,14 @@ const sizeStyles = {
   large: styles.buttonLarge,
 };
 
-export const Button = ({
-  primary = false,
-  backgroundColor,
-  size = ButtonSize.Medium,
-  label,
-  ...otherProps
-}: ButtonProps) => {
+export function Button(props: ButtonProps) {
+  const {
+    primary = false,
+    backgroundColor,
+    size = ButtonSize.Medium,
+    label,
+    ...otherProps
+  } = props;
   return (
     <button
       type="button"

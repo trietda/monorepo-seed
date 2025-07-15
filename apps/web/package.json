@@ -14,9 +14,9 @@
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.3.1",
     "@seed/tsconfig": "workspace:^",
     "@seed/ui": "workspace:^",
+    "@eslint/eslintrc": "^3.3.1",
     "@tailwindcss/postcss": "^4.1.11",
     "@types/css-modules": "^1.0.5",
     "@types/node": "^24.0.7",

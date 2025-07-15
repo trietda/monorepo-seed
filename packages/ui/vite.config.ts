@@ -6,6 +6,7 @@ import { defineConfig } from 'vite';
 import dts from 'vite-plugin-dts';
 import { libInjectCss } from 'vite-plugin-lib-inject-css';
 import tsconfigPaths from 'vite-tsconfig-paths';
+import preserveDirectives from 'rollup-plugin-preserve-directives';
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -39,7 +40,11 @@ export default defineConfig({
       output: {
         assetFileNames: 'assets/[name][extname]',
         entryFileNames: '[name].js',
+        preserveModules: true,
       },
+      plugins: [
+        preserveDirectives()
+      ],
     },
   },
   plugins: [
